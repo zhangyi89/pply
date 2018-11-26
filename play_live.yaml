@@ -1,0 +1,11 @@
+g:
+    autostart: True
+
+
+web:
+    command: gunicorn --reload -k gevent -w 4 -b 0.0.0.0:8080 play_live.wsgi:application --threads 4 -t 90
+    service: true
+    watchdog: false
+    debug: true
+
+    log: /var/play_live/logs/web.log

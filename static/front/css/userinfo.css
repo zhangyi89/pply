@@ -1,0 +1,63 @@
+.userinfo_title{
+    font: 400 20px/24px 'microsoft Yahei';
+}
+
+.userinfo_width{
+    width:310px;
+}
+.userinfo_resource{
+    display:block; margin: 0 !important; padding: 5px 0;
+}
+.userinfo_btn{
+    margin-top: 12px;float:right; margin-left:10px;
+}
+
+.userinfo_body{
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+.user_info{
+    padding: 20px 0;
+}
+.userinfo_from{
+    margin-top: 20px;
+}
+
+.userImages{
+    border-radius: 50%;
+    width: 80px;
+}
+.userdetail {
+    font-size: 14px;
+    color: #606266;
+    line-height: 40px;
+}
+
+
+.cursor_text .el-input__inner{
+    cursor: text !important;
+}
+/* 修改按钮样式 */
+
+[v-cloak]{
+    display:none;
+}
+.el-button--warning{
+    background-color: #ff9832;
+    border-color: #ff9832;
+}
+
+.el-button--warning.is-plain:focus, .el-button--warning.is-plain:hover{
+    background-color: #ff9832;
+    border-color: #ff9832;
+}
+
+.el-button--warning.is-plain{
+    color: #ff9832;
+    background: #fff;
+    border-color: #ff9832;
+}
+.el-button--warning:focus, .el-button--warning:hover {
+    background: #fda95f;
+    border-color: #fda95f;
+}

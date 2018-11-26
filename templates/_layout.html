@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+<link href="/static/front/css/index.css" type="text/css" rel="stylesheet"/>
+ <link href="/static/front/css/home.css" type="text/css" rel="stylesheet"/>
+
+{#vue 和 elementUi 引用#}
+<link rel="stylesheet" href="/static/front/element-ui/index.css">
+{#<script src="https://unpkg.com/vue/dist/vue.js"></script>#}
+<script src="/static/front/js/vue.min.js"></script>
+<script src="/static/front/element-ui/index.js"></script>
+{#ajax 引用#}
+<script src="/static/front/js/axios.min.js"></script>
+<script src="/static/front/js/ajax.js"></script>
+{# icon #}
+<link rel="stylesheet" href="/static/front/fontawesome/css/fontawesome-all.css">
+    {% block head %}{% endblock %}
+</head>
+<body>
+{% block top %}{% endblock %}
+{% block cetent-left %}{% endblock %}
+<div class="rightContainer" id="rightContain">
+
+<div class="inrightContain">
+{% block cetent-right %}{% endblock %}
+</div>
+</div>
+<div style="clear:both"></div>
+{% block foot %}{% endblock %}
+
+</body>
+
+</html>
+

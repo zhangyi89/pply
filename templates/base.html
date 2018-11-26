@@ -1,0 +1,90 @@
+{% extends "_layout.html" %}
+
+{% block top %}
+      <div id="console-top-menu" class="console-top-menu frame-normal-font-size">
+          <div id="menu" class="container-fluid">
+              <div class="row-fluid">
+                  <a class="console-menu-logo pull-left" target="_blank" href="http://www.ctyun.cn/">
+                  </a>
+
+                  <div class="pull-left">
+                      <a href="#" class="console-topbar-btn console-menu-home-link">
+                          <span class="hwsicon-frame-image-home menu-hwsicon-frame-home">
+                             播放平台
+                         </span>
+                     </a>
+                 </div>
+          </div>
+      </div>
+</div>
+<!-- 菜单栏end--->
+{% endblock %}
+
+
+
+{% block foot %}
+<div class="bottom_new" id="bottom_new" style="z-index:999;">
+  <div class="bottom_new_margin" >
+    <ul>
+        <li><a href=""><span class="hwsicon-frame-image-footer-earth"></span><span>中文（简体）</span></a></li>
+        <i></i>
+        <li><a href="">天翼云首页</a></li>
+        <i></i>
+        <li><a href="">用户协议</a></li>
+        <i></i>
+        <li><a href="">法律声明</a></li>
+    </ul>
+    <p>&copy;2015中国电信股份有限公司云计算分公司版权所有&nbsp;京ICP备 12022551号&nbsp;&nbsp;增值电信业务经营许可证A2.B1.B2-2009000</p>
+</div>
+</div>
+<script>
+
+
+var winWidth;
+var winheight;
+window.onload=function(){
+if (window.innerWidth)
+winWidth = window.innerWidth;
+else if ((document.body) && (document.body.clientWidth))
+winWidth = document.body.clientWidth;
+document.getElementById("rightContain").style.width=(winWidth-60)+"px";
+
+if (window.innerHeight)
+winheight = window.innerHeight;
+else if ((document.body) && (document.body.clientHeight))
+winheight = document.body.clientHeight;
+document.getElementById("rightContain").style.height=(winheight-100)+"px";
+
+}
+window.onresize=function(){
+if (window.innerWidth)
+winWidth = window.innerWidth;
+else if ((document.body) && (document.body.clientWidth))
+winWidth = document.body.clientWidth;
+document.getElementById("rightContain").style.width=(winWidth-60)+"px";
+
+if (window.innerHeight)
+winheight = window.innerHeight;
+else if ((document.body) && (document.body.clientHeight))
+winheight = document.body.clientHeight;
+document.getElementById("rightContain").style.height=(winheight-100)+"px";
+}
+
+function displaySubMenu() {
+
+    var subMenu = document.getElementById('myDropdown')
+
+    subMenu.style.display = "block";
+
+}
+
+function hideSubMenu() {
+
+    var subMenu = document.getElementById('myDropdown')
+
+    subMenu.style.display = "none";
+
+}      
+</script>
+{% endblock %}
+

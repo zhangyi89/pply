@@ -1,0 +1,52 @@
+.wizard_width{
+    width:376px;
+}
+.wizard_resource{
+    display:block; margin: 0 !important; padding: 5px 0;
+}
+.wizard_btn{
+    margin-top: 12px;float:right; margin-left:10px;
+}
+
+.wizard_body{
+    margin-top: 20px;
+}
+.wizard_from{
+    margin-top: 20px;
+}
+
+.el-steps .el-step .is-success{
+    color: #009ee0;
+    border-color: #009ee0;
+}
+
+.el-steps  .el-step__main   .is-success{
+    color: #009ee0;
+}
+
+
+
+/* 修改按钮样式 */
+
+[v-cloak]{
+    display:none;
+}
+.el-button--warning{
+    background-color: #ff9832;
+    border-color: #ff9832;
+}
+
+.el-button--warning.is-plain:focus, .el-button--warning.is-plain:hover{
+    background-color: #ff9832;
+    border-color: #ff9832;
+}
+
+.el-button--warning.is-plain{
+    color: #ff9832;
+    background: #fff;
+    border-color: #ff9832;
+}
+.el-button--warning:focus, .el-button--warning:hover {
+    background: #fda95f;
+    border-color: #fda95f;
+}
