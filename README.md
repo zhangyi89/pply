@@ -17,6 +17,7 @@
        
     3. 运行镜像(可根据需求修改第一个端口号)
        docker run -e LANG=zh_CN.UTF-8 -p 8080:8080 --privileged -d -v /var/play_live:/var/play_live registry.ctzcdn.com/play_live:1.0.0
+       docker run -e LANG=zh_CN.UTF-8 -p 9099:8080 --privileged -d -v /var/play_live:/var/play_live registry.ctzcdn.com/play_live:1.0.0
 
 
 #### 创建管理员账号
