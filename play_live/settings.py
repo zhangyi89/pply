@@ -126,6 +126,8 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = f'{BASE_DIR}/static'
 
+STATIC_ROOT = f'{BASE_DIR}/static'
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
