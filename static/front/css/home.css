@@ -69,12 +69,12 @@ font-size: 14px;
 min-width:calc(100% - 250px);
 overflow: auto;
 float: left;
-
+margin-left: 250px;
 margin-top: 60px;
 }
 .inrightContain{
 margin-top: 10px;
-margin-left: 60px;
+margin-right: 20px;
 }
 .dropdown-content a {
     color: black;
